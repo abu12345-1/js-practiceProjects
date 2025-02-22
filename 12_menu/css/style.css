@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.heading {
+    align-items: end;
+    height: 120px;
+}
+
+.heading p {
+    font-size: 43px;
+    font-weight: 600;
+    color: #04044f;
+    margin-bottom: 0px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-top: 25px;
+}
+
+.menu .btns {
+    padding: 4px 12px;
+    color: #c59d5f;
+    border: #c59d5f 2px solid;
+    border-radius: 10px;
+    box-shadow: rgba(136, 165, 191, 0.48) 5px 4px 5px 0px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.btn-clicked {
+    background-color: #c59d5f;
+    color: #fff !important;
+}
+
+.underline {
+    height: 4px;
+    background-color: #c59d5f;
+    width: 9%;
+    margin: 0 auto;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 41px !important;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 4px solid #d8aa6d;
+}
+
+.menu-text {
+    flex: 1;
+}
+
+.menu-text h3 {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-bottom: 0.5px dotted hsl(210, 22%, 49%);
+}
+
+.menu-text p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.menu-price {
+    font-weight: bold;
+    color: #d8aa6d;
+    float: right;
+}
