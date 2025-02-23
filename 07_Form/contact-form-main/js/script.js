@@ -1,36 +1,3 @@
-// // Getting values
-// let form = document.querySelector("form")
-// let fname = document.querySelector(".firstname")
-// let lname = document.querySelector(".lastname")
-// let email = document.querySelector(".email")
-// let tarea = document.querySelector(".txt-area")
-
-// // Getting Error
-// let fnerror = document.getElementById("fnameerror")
-// let lnerror = document.getElementById("lnameerror")
-// let emerror = document.getElementById("emailerror")
-
-// form.addEventListener('submit', (e) => {
-//     // submit.preventDefault();
-
-
-//     let isValid = true;
-
-//     if (fname.value.trim() === "") {
-//         fnerror.textContent = "Please Enter the first name"
-//         fnerror.style.color = "red";
-//         console.log(fname);
-//         isValid = false;
-//     } else {
-//         fnerror.textContent = "";
-//     }
-
-// });
-
-
-
-
-
 // Getting form elements
 let form = document.querySelector(".form");
 let fname = document.querySelector(".firstname");
@@ -82,3 +49,34 @@ form.addEventListener('click', (e) => {
         merror.style.color = "red"
     }
 });
+
+
+
+// // Getting values
+// let form = document.querySelector("form")
+// let fname = document.querySelector(".firstname")
+// let lname = document.querySelector(".lastname")
+// let email = document.querySelector(".email")
+// let tarea = document.querySelector(".txt-area")
+
+// // Getting Error
+// let fnerror = document.getElementById("fnameerror")
+// let lnerror = document.getElementById("lnameerror")
+// let emerror = document.getElementById("emailerror")
+
+// form.addEventListener('submit', (e) => {
+//     // submit.preventDefault();
+
+
+//     let isValid = true;
+
+//     if (fname.value.trim() === "") {
+//         fnerror.textContent = "Please Enter the first name"
+//         fnerror.style.color = "red";
+//         console.log(fname);
+//         isValid = false;
+//     } else {
+//         fnerror.textContent = "";
+//     }
+
+// });

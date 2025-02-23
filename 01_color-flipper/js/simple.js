@@ -1,14 +1,6 @@
-const clrs = ["red", "green", "blue", "yellow", "orange", "pink"]
-a = document.getElementById("input");
+const clrs = ["red", "green", "blue", "yellow", "orange", "pink"];
 
 function changeclr() {
-    for (let i = 0; i < clrs.length; i++) {
-        const num = ranNum();
-        // console.log(num);
-
-        document.body.style.backgroundColor = clrs[num];
-    }
-}
-function ranNum() {
-    return Math.floor(Math.random() * clrs.length)
+    const num = Math.floor(Math.random() * clrs.length); // Generate a random number directly
+    document.body.style.backgroundColor = clrs[num]; // Change background color
 }
